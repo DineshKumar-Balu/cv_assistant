@@ -28,7 +28,7 @@ client = LiteralClient(api_key=os.getenv('LITERAL_API_KEY'))
 prompt = client.api.get_prompt(name="RAG prompt")
 
 # Static PDF file path
-pdf_path = 'dineshcvforbot.pdf'
+pdf_path = './dineshcvforbot.pdf'
 
 def process_pdf(pdf_path):
     # Read the content of your PDF file
