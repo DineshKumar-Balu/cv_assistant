@@ -1,4 +1,5 @@
 langchain
+literalai
 langchain_community
 streamlit
 PyPDF2
